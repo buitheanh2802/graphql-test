@@ -7,9 +7,20 @@
     "apollo-server-core": "^3.6.4",
     "apollo-server-express": "^3.6.4",
     "express": "^4.17.3",
-    "reflect-metadata": "^0.1.13"
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.6",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "scripts": {
+    "build:server": "tsc",
+    "dev": "nodemon",
+    "start": "node ./server_bundle/index.js"
   },
   "devDependencies": {
+    "@types/node": "^17.0.21",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
   }
 }
